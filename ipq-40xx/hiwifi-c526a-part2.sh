@@ -65,12 +65,12 @@ cat >> .config <<EOF
 CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-theme-argon-dark-mod=y
+CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-nps=y
 CONFIG_PACKAGE_luci-app-frpc=y
 CONFIG_PACKAGE_luci-app-adbyby-plus=y
-CONFIG_PACKAGE_luci-app-turboacc=y
+ CONFIG_PACKAGE_ddns-scripts_dnspod=y
 EOF
 
 # 其它
